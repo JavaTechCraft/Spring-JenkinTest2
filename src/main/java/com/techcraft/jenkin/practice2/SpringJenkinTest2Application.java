@@ -32,7 +32,9 @@ public class SpringJenkinTest2Application {
 	
 
 	public static void main(String[] args) {
+		logger.info("Application is started to execute project....");
 		SpringApplication.run(SpringJenkinTest2Application.class, args);
+		logger.info("Application is stopped to execute project....");
 	}
 
 }
